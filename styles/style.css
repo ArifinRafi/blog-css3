@@ -93,6 +93,11 @@ height: 105.51px;
 display: grid;
 grid-template-columns: repeat(3,0.5fr);
 }
+.course{
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    margin: 5px;
+}
 .course-title{
     width: 230px;
     height: 20px;
@@ -102,7 +107,7 @@ grid-template-columns: repeat(3,0.5fr);
 }
 .trainer-name{
     color: #ED6B4F;
-    font-size: 12.6913px;
+    font-size: 12px;
     padding: 5px;
 }
 
