@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
 body{
 font-family: 'Roboto Slab', serif;
-background-color:#F3F1FF;
+background-color:#c1bae7;
 }
 
 main{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .container{
     background-color: #FFFFFF;
@@ -14,7 +15,6 @@ main{
     width: 870px;
     height: 679px;
     padding: 30px;
-    top: 130px;
     
 
 }
@@ -42,11 +42,7 @@ main{
     font-size: 18px;
 }
 
-hr{
-    position: absolute;
-    top: 40%;
-    width: 808px;
-}
+
 .blogs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -72,3 +68,42 @@ hr{
     color: #562EFF;
     font-size: 16px;
 }
+
+.container2{
+position: absolute;
+width: 870px;
+height: 362px;
+top: 830px;
+padding: 30px;
+
+background: #FFFFFF;
+border-radius: 5px;   
+}
+.courses-title{
+    position: relative;
+    font-size: 18px;
+    color: blue;
+    padding: 16px;
+}
+.course img{
+width: 224.38px;
+height: 105.51px;
+}
+.courses{
+display: grid;
+grid-template-columns: repeat(3,0.5fr);
+}
+.course-title{
+    width: 230px;
+    height: 20px;
+    font-size: 20.0336px;
+    line-height: 23px;
+
+}
+.trainer-name{
+    color: #ED6B4F;
+    font-size: 12.6913px;
+    padding: 5px;
+}
+
+
